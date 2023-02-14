@@ -119,6 +119,7 @@ button:hover span:after {
 }
 
 .cart-item {
+    margin-left: 2%;
     width: 45%;
 }
 
@@ -179,6 +180,7 @@ button:hover span:after {
 }
 
 .cart-total-price {
+    margin-right: 2%;
     color: white;
     font-size: 1.1em;
 }
@@ -249,7 +251,7 @@ button:hover span:after {
 }
 
 .btn-purchase {
-    text-align: center;
+    margin-left: 2%;
     font-size: 20px;
     padding: 5px;
 }
