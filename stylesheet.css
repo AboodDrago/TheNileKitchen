@@ -11,7 +11,7 @@ html {
 body {
     position: relative;
     margin: 0;
-    padding-bottom: 4rem;
+    /* padding-bottom: 4rem; */
     min-height: 100%;
     background-color: #032d30;
 }
@@ -54,7 +54,14 @@ h1 {
     color: #d8ad5d;
 }
 
-button {
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: .67em .67em;
+    cursor: pointer;
+}
+
+.btn-main {
     display: inline-block;
     border-radius: 4px;
     background-color: #d8ad5d;
@@ -69,19 +76,19 @@ button {
     margin: 5px;
 }
 
-button:hover {
+.btn-main:hover {
     background-color: orange;
     color: white;
 } 
   
-button span {
+.btn-main span {
     cursor: pointer;
     display: inline-block;
     position: relative;
     transition: 0.5s;
 }
   
-button span:after {
+.btn-main span:after {
     content: '\00bb';
     position: absolute;
     opacity: 0;
@@ -90,11 +97,11 @@ button span:after {
     transition: 0.5s;
 }
   
-button:hover span {
+.btn-main:hover span {
     padding-right: 25px;
 }
   
-button:hover span:after {
+.btn-main:hover span:after {
     opacity: 1;
     right: 0;
 }
@@ -145,11 +152,23 @@ button:hover span:after {
     border-radius: 10px;
 }
 
+.btn-delete {
+    color: white;
+    background-color: #EB5757;
+    border: none;
+    border-radius: .3em;
+    font-weight: bold;
+}
+
+.btn-delete:hover {
+    background-color: #CC4C4C;
+}
+
 .cart-quantity-input {
     height: 34px;
     width: 50px;
     border-radius: 5px;
-    border: 1px solid #56CCF2;
+    border: 1px solid #d8ad5d;
     background-color: #eee;
     color: #333;
     padding: 0;

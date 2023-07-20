@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="stylesheet.css">
     <title>TNK - CheckOut</title>
     <link rel="icon" type="image/png" href="TNK Logo.png">
-    <script src="checkout.js" async></script>
+    <script src="store.js" async></script>
 </head>
 <body>
     <div class="container">
@@ -21,20 +21,22 @@
                 <span class="cart-price cart-header cart-column">PRICE</span>
                 <span class="cart-quantity cart-header cart-column">QUANTITY</span>
             </div>
-            <div class="cart-items"></div>
+            <div class="cart-items-checkout">
+            </div>
             <div class="cart-total">
                 <strong class="cart-total-title">Total</strong>
                 <span class="cart-total-price">د.إ.‏ 0</span>
             </div>
-            <button class="btn-purchase" type="button" style="vertical-align:middle"><span>PURCHASE</span></button>
+            <button class="btn-purchase btn-main" type="button" style="vertical-align:middle"><span>PURCHASE</span></button>
         </section>
-        <div class="center">
-            <button onclick="document.location='index.html'" type="button" style="vertical-align:middle"><span>Home Page</span></button>
-            <button onclick="document.location='menu.html'" type="button" style="vertical-align:middle"><span>Menu Page</span></button>
-        </div>
     </div>
+    <br><br>
+        <div class="center">
+            <button class="btn-main" onclick="document.location='index.html'" type="button" style="vertical-align:middle"><span>Home Page</span></button>
+            <button class="btn-main" onclick="document.location='menu.html'" type="button" style="vertical-align:middle"><span>Menu Page</span></button>
+        </div>
     <div class="footer">
         <h3>All Coded 100% by AboodCode</h3>
     </div>
-</body>
+</body> 
 </html>
